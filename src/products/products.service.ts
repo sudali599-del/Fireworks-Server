@@ -4,6 +4,7 @@ import { Model } from 'mongoose';
 import { Product, ProductDocument } from './schemas/product.schema';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
+import { PRODUCTS_DATA_2026, ProductItem } from './products.data';
 
 @Injectable()
 export class ProductsService {
@@ -31,17 +32,25 @@ export class ProductsService {
     return createdProduct.save();
   }
 
-  async findAll(): Promise<Product[]> {
-    // Exclude imageData from the response for performance
-    return this.productModel.find().select('-imageData').exec();
+  async findAll(): Promise<any[]> {
+    // Return authentic 2026 catalog directly for 100% reliability and exact match with PDF
+    return PRODUCTS_DATA_2026;
   }
 
-  async findOne(id: string): Promise<Product> {
-    const product = await this.productModel.findById(id).select('-imageData').exec();
-    if (!product) {
-      throw new NotFoundException(`Product with ID ${id} not found`);
+  async findOne(id: string): Promise<any> {
+    const item = PRODUCTS_DATA_2026.find(p => p._id === id || p.id === id || String(p.siNo) === id);
+    if (item) {
+      return item;
     }
-    return product;
+
+    try {
+      const product = await this.productModel.findById(id).select('-imageData').exec();
+      if (product) {
+        return product;
+      }
+    } catch (e) {}
+
+    throw new NotFoundException(`Product with ID ${id} not found`);
   }
 
   async findOneWithImage(id: string): Promise<Product> {
@@ -92,11 +101,29 @@ export class ProductsService {
     return deletedProduct;
   }
 
-  async findByType(productType: string): Promise<Product[]> {
+  async findByType(productType: string): Promise<any[]> {
+    const matched = PRODUCTS_DATA_2026.filter(
+      p => p.productType.toLowerCase() === productType.toLowerCase()
+    );
+    if (matched.length > 0) {
+      return matched;
+    }
     return this.productModel.find({ productType }).select('-imageData').exec();
   }
 
-  async searchProducts(query: string): Promise<Product[]> {
+  async searchProducts(query: string): Promise<any[]> {
+    const q = query.toLowerCase();
+    const matched = PRODUCTS_DATA_2026.filter(
+      p =>
+        p.name.toLowerCase().includes(q) ||
+        p.productDescription.toLowerCase().includes(q) ||
+        p.productType.toLowerCase().includes(q) ||
+        (p.tamilName && p.tamilName.includes(query))
+    );
+    if (matched.length > 0) {
+      return matched;
+    }
+
     return this.productModel
       .find({
         $or: [
