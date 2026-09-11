@@ -2,6 +2,7 @@ import {
   Controller,
   Get,
   Post,
+  Put,
   Body,
   Patch,
   Param,
@@ -49,6 +50,32 @@ export class ProductsController {
       return await this.productsService.findByType(type);
     }
     return await this.productsService.findAll();
+  }
+
+  @Get('categories')
+  async getCategories() {
+    return await this.productsService.getCategories();
+  }
+
+  @Post('categories')
+  async addCategory(@Body() body: { name: string }) {
+    if (!body?.name?.trim()) {
+      throw new BadRequestException('Category name is required');
+    }
+    return await this.productsService.addCategory(body.name.trim());
+  }
+
+  @Put('categories/rename')
+  async renameCategory(@Body() body: { oldName: string; newName: string }) {
+    if (!body?.oldName?.trim() || !body?.newName?.trim()) {
+      throw new BadRequestException('Both oldName and newName are required');
+    }
+    return await this.productsService.renameCategory(body.oldName.trim(), body.newName.trim());
+  }
+
+  @Delete('categories/:name')
+  async deleteCategory(@Param('name') name: string) {
+    return await this.productsService.deleteCategory(name);
   }
 
   @Get(':id')

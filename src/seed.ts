@@ -978,31 +978,10 @@ const PRODUCTS_2026 = [
     "productType": "SPECIAL FANCY FOUNTAINS"
   },
   {
-    "name": "Magical Pots (5 Pcs)",
-    "actualPrice": 1000,
-    "discount": 0,
-    "productDescription": "1 Box",
-    "productType": "SPECIAL FOUNTAINS"
-  },
-  {
-    "name": "Diamond Bursters (5 Pcs)",
-    "actualPrice": 750,
-    "discount": 0,
-    "productDescription": "1 Box",
-    "productType": "SPECIAL FOUNTAINS"
-  },
-  {
-    "name": "Multi colour shower (5 Pcs)",
-    "actualPrice": 750,
-    "discount": 0,
-    "productDescription": "1 Box",
-    "productType": "SPECIAL FOUNTAINS"
-  },
-  {
     "name": "MRF Bat and Ball",
     "actualPrice": 1200,
     "discount": 0,
-    "productDescription": "1Pce",
+    "productDescription": "1No",
     "productType": "SPECIAL FOUNTAINS"
   },
   {

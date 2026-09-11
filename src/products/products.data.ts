@@ -1,7 +1,7 @@
 /**
  * AUTHENTIC 2026 DIWALI PRICELIST
  * Source: SELVAGANAPATHY TRADERS - SUN FLAG CRACKERS PRICELIST 2026
- * Exactly 167 authentic items across 23 categories.
+ * Exactly 164 authentic items across 23 categories.
  */
 
 export interface ProductItem {
@@ -22,6 +22,32 @@ export interface ProductItem {
   __v: number;
 }
 
+export const DEFAULT_CATEGORIES: string[] = [
+  "ONE SOUND CRACKERS",
+  "FLOWER POTS",
+  "GROUND CHAKKAR",
+  "ROCKETS",
+  "TWINKLING STAR",
+  "ELECTRIC CRACKERS",
+  "DELUXE CRACKERS",
+  "SPECIAL GARLANDS",
+  "BIJILI",
+  "BOMBS",
+  "PENCIL",
+  "SPARKLERS",
+  "MULTI COLOUR FOUNTAINS",
+  "PEACOCK FOUNTAIN",
+  "MUSICAL ITEMS",
+  "AERIAL FANCY",
+  "AERIAL FANCY SHOTS",
+  "AERIAL MULTI SHOTS FANCY",
+  "SPECIAL FANCY FOUNTAINS",
+  "SPECIAL FOUNTAINS",
+  "NEW ARRIVAL FOUNTAINS",
+  "CHILDRENS SPECIAL",
+  "GIFT BOXES"
+];
+
 export const PRODUCTS_DATA_2026: ProductItem[] = [
   {
     "_id": "66db00000000000000000001",
@@ -36,8 +62,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -53,8 +79,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -70,8 +96,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -87,8 +113,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -104,8 +130,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -121,8 +147,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -138,8 +164,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -155,8 +181,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -172,8 +198,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -189,8 +215,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -206,8 +232,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -223,8 +249,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ONE SOUND CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -240,8 +266,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -257,8 +283,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -274,8 +300,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -291,8 +317,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -308,8 +334,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -325,8 +351,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -342,8 +368,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "FLOWER POTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -359,8 +385,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -376,8 +402,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -393,8 +419,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -410,8 +436,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -427,8 +453,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -444,8 +470,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -461,8 +487,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GROUND CHAKKAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -478,8 +504,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ROCKETS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -495,8 +521,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ROCKETS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -512,8 +538,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ROCKETS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -529,8 +555,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ROCKETS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -546,8 +572,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ROCKETS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -563,8 +589,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "TWINKLING STAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -580,8 +606,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "TWINKLING STAR",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -597,8 +623,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ELECTRIC CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -614,8 +640,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ELECTRIC CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -631,8 +657,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ELECTRIC CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -648,8 +674,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "ELECTRIC CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -665,8 +691,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "DELUXE CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -682,8 +708,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "DELUXE CRACKERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -699,8 +725,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL GARLANDS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -716,8 +742,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL GARLANDS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -733,8 +759,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL GARLANDS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -750,8 +776,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL GARLANDS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -767,8 +793,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL GARLANDS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -784,8 +810,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BIJILI",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -801,8 +827,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BIJILI",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -818,8 +844,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BOMBS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -835,8 +861,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BOMBS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -852,8 +878,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BOMBS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -869,8 +895,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BOMBS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -886,8 +912,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BOMBS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -903,8 +929,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "BOMBS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -920,8 +946,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PENCIL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -937,8 +963,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PENCIL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -954,8 +980,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PENCIL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -971,8 +997,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PENCIL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -988,8 +1014,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1005,8 +1031,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1022,8 +1048,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1039,8 +1065,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1056,8 +1082,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1073,8 +1099,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1090,8 +1116,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1107,8 +1133,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1124,8 +1150,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1141,8 +1167,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1158,8 +1184,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1175,8 +1201,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1192,8 +1218,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1209,8 +1235,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1226,8 +1252,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1243,8 +1269,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1260,8 +1286,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1277,8 +1303,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1294,8 +1320,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1311,8 +1337,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1328,8 +1354,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1345,8 +1371,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1362,8 +1388,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1379,8 +1405,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1396,8 +1422,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1413,8 +1439,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1430,8 +1456,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1447,8 +1473,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPARKLERS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1464,8 +1490,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MULTI COLOUR FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1481,8 +1507,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MULTI COLOUR FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1498,8 +1524,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MULTI COLOUR FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1515,8 +1541,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MULTI COLOUR FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1532,8 +1558,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PEACOCK FOUNTAIN",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1549,8 +1575,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PEACOCK FOUNTAIN",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1566,8 +1592,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PEACOCK FOUNTAIN",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1583,8 +1609,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PEACOCK FOUNTAIN",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1600,8 +1626,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PEACOCK FOUNTAIN",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1617,8 +1643,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "PEACOCK FOUNTAIN",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1634,8 +1660,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MUSICAL ITEMS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1651,8 +1677,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MUSICAL ITEMS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1668,8 +1694,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MUSICAL ITEMS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1685,8 +1711,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "MUSICAL ITEMS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1702,8 +1728,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1719,8 +1745,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1736,8 +1762,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1753,8 +1779,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1770,8 +1796,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1787,8 +1813,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1804,8 +1830,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1821,8 +1847,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1838,8 +1864,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1855,8 +1881,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1872,8 +1898,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1889,8 +1915,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1906,8 +1932,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1923,8 +1949,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL FANCY SHOTS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1940,8 +1966,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL MULTI SHOTS FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1957,8 +1983,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL MULTI SHOTS FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1974,8 +2000,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL MULTI SHOTS FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -1991,8 +2017,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL MULTI SHOTS FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2008,8 +2034,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL MULTI SHOTS FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2025,8 +2051,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "AERIAL MULTI SHOTS FANCY",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2042,8 +2068,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2059,8 +2085,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2076,8 +2102,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2093,8 +2119,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2110,8 +2136,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2127,8 +2153,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2144,8 +2170,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2161,8 +2187,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2178,8 +2204,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2195,8 +2221,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2212,8 +2238,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2229,8 +2255,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2246,8 +2272,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2263,8 +2289,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2280,8 +2306,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2297,8 +2323,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2314,8 +2340,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2331,8 +2357,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
@@ -2348,82 +2374,31 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FANCY FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
     "_id": "66db0000000000000000008a",
     "id": "66db0000000000000000008a",
     "siNo": 138,
-    "name": "Magical Pots (5 Pcs)",
-    "tamilName": "மேஜிக் பாட்ஸ் (5 பீஸ்)",
-    "actualPrice": 1000,
+    "name": "MRF Bat and Ball",
+    "tamilName": "எம் ஆர் எப் பேட் & பால்",
+    "actualPrice": 1200,
     "discount": 0,
-    "discountedPrice": 1000,
-    "productDescription": "1 Box",
+    "discountedPrice": 1200,
+    "productDescription": "1No",
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
     "_id": "66db0000000000000000008b",
     "id": "66db0000000000000000008b",
     "siNo": 139,
-    "name": "Diamond Bursters (5 Pcs)",
-    "tamilName": "டைமண்ட் பர்ஸ்டர்ஸ் (5 பீஸ்)",
-    "actualPrice": 750,
-    "discount": 0,
-    "discountedPrice": 750,
-    "productDescription": "1 Box",
-    "productType": "SPECIAL FOUNTAINS",
-    "imageUrl": null,
-    "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
-    "__v": 0
-  },
-  {
-    "_id": "66db0000000000000000008c",
-    "id": "66db0000000000000000008c",
-    "siNo": 140,
-    "name": "Multi colour shower (5 Pcs)",
-    "tamilName": "மல்டி கலர் சவர் (5 பீஸ்)",
-    "actualPrice": 750,
-    "discount": 0,
-    "discountedPrice": 750,
-    "productDescription": "1 Box",
-    "productType": "SPECIAL FOUNTAINS",
-    "imageUrl": null,
-    "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
-    "__v": 0
-  },
-  {
-    "_id": "66db0000000000000000008d",
-    "id": "66db0000000000000000008d",
-    "siNo": 141,
-    "name": "MRF Bat and Ball",
-    "tamilName": "எம் ஆர் எப் பேட் & பால்",
-    "actualPrice": 1200,
-    "discount": 0,
-    "discountedPrice": 1200,
-    "productDescription": "1Pce",
-    "productType": "SPECIAL FOUNTAINS",
-    "imageUrl": null,
-    "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
-    "__v": 0
-  },
-  {
-    "_id": "66db0000000000000000008e",
-    "id": "66db0000000000000000008e",
-    "siNo": 142,
     "name": "90 Watts",
     "tamilName": "90 வாட்ஸ்",
     "actualPrice": 550,
@@ -2433,14 +2408,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000008f",
-    "id": "66db0000000000000000008f",
-    "siNo": 143,
+    "_id": "66db0000000000000000008c",
+    "id": "66db0000000000000000008c",
+    "siNo": 140,
     "name": "H2O Falls",
     "tamilName": "எச் 2 ஓ பால்ஸ்",
     "actualPrice": 650,
@@ -2450,14 +2425,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000090",
-    "id": "66db00000000000000000090",
-    "siNo": 144,
+    "_id": "66db0000000000000000008d",
+    "id": "66db0000000000000000008d",
+    "siNo": 141,
     "name": "King Fisher/Henieken/crystal-Tinbeer",
     "tamilName": "சிங்கிஸ்ஸர்/ஹெனிக்கன்/கிரைஸ்டால்-டின்பீர்",
     "actualPrice": 375,
@@ -2467,14 +2442,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000091",
-    "id": "66db00000000000000000091",
-    "siNo": 145,
+    "_id": "66db0000000000000000008e",
+    "id": "66db0000000000000000008e",
+    "siNo": 142,
     "name": "Old is Gold",
     "tamilName": "ஓல்ட் இஸ் கோல்ட்",
     "actualPrice": 800,
@@ -2484,14 +2459,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000092",
-    "id": "66db00000000000000000092",
-    "siNo": 146,
+    "_id": "66db0000000000000000008f",
+    "id": "66db0000000000000000008f",
+    "siNo": 143,
     "name": "Mini Rail",
     "tamilName": "மினி ரயில்",
     "actualPrice": 250,
@@ -2501,14 +2476,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000093",
-    "id": "66db00000000000000000093",
-    "siNo": 147,
+    "_id": "66db00000000000000000090",
+    "id": "66db00000000000000000090",
+    "siNo": 144,
     "name": "Photo Flash (5 Pcs)",
     "tamilName": "போட்டோ ஃபிலாஸ்(5 பீஸ்)",
     "actualPrice": 200,
@@ -2518,14 +2493,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000094",
-    "id": "66db00000000000000000094",
-    "siNo": 148,
+    "_id": "66db00000000000000000091",
+    "id": "66db00000000000000000091",
+    "siNo": 145,
     "name": "I Cone (2 Pcs)",
     "tamilName": "ஐ கோன் (2 பீஸ்)",
     "actualPrice": 1000,
@@ -2535,14 +2510,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "SPECIAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000095",
-    "id": "66db00000000000000000095",
-    "siNo": 149,
+    "_id": "66db00000000000000000092",
+    "id": "66db00000000000000000092",
+    "siNo": 146,
     "name": "Rock Stars",
     "tamilName": "ராக் ஸ்டார்ஸ்",
     "actualPrice": 700,
@@ -2552,14 +2527,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "NEW ARRIVAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000096",
-    "id": "66db00000000000000000096",
-    "siNo": 150,
+    "_id": "66db00000000000000000093",
+    "id": "66db00000000000000000093",
+    "siNo": 147,
     "name": "Sizzling Star",
     "tamilName": "சிஸ்லிங் ஸ்டார்",
     "actualPrice": 950,
@@ -2569,14 +2544,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "NEW ARRIVAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000097",
-    "id": "66db00000000000000000097",
-    "siNo": 151,
+    "_id": "66db00000000000000000094",
+    "id": "66db00000000000000000094",
+    "siNo": 148,
     "name": "Jolly Poppy",
     "tamilName": "ஜாலி பாப்பி",
     "actualPrice": 2500,
@@ -2586,14 +2561,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "NEW ARRIVAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000098",
-    "id": "66db00000000000000000098",
-    "siNo": 152,
+    "_id": "66db00000000000000000095",
+    "id": "66db00000000000000000095",
+    "siNo": 149,
     "name": "King Version",
     "tamilName": "கிங் வெர்சன்",
     "actualPrice": 900,
@@ -2603,14 +2578,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "NEW ARRIVAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db00000000000000000099",
-    "id": "66db00000000000000000099",
-    "siNo": 153,
+    "_id": "66db00000000000000000096",
+    "id": "66db00000000000000000096",
+    "siNo": 150,
     "name": "Kulfi (2 Pcs)",
     "tamilName": "குல்பி (2 பீஸ்)",
     "actualPrice": 1500,
@@ -2620,14 +2595,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "NEW ARRIVAL FOUNTAINS",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000009a",
-    "id": "66db0000000000000000009a",
-    "siNo": 154,
+    "_id": "66db00000000000000000097",
+    "id": "66db00000000000000000097",
+    "siNo": 151,
     "name": "Magic Pops",
     "tamilName": "மேஜிக் பாப்ஸ்",
     "actualPrice": 35,
@@ -2637,14 +2612,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000009b",
-    "id": "66db0000000000000000009b",
-    "siNo": 155,
+    "_id": "66db00000000000000000098",
+    "id": "66db00000000000000000098",
+    "siNo": 152,
     "name": "Jee Boom Baa",
     "tamilName": "ஜீ பூம் பா",
     "actualPrice": 35,
@@ -2654,14 +2629,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000009c",
-    "id": "66db0000000000000000009c",
-    "siNo": 156,
+    "_id": "66db00000000000000000099",
+    "id": "66db00000000000000000099",
+    "siNo": 153,
     "name": "Electric Stone",
     "tamilName": "எலக்ட்ரிக் ஸ்டோன்",
     "actualPrice": 40,
@@ -2671,14 +2646,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000009d",
-    "id": "66db0000000000000000009d",
-    "siNo": 157,
+    "_id": "66db0000000000000000009a",
+    "id": "66db0000000000000000009a",
+    "siNo": 154,
     "name": "Cartoon (5 Pcs)",
     "tamilName": "கார்ட்டூன் (5 பீஸ்)",
     "actualPrice": 50,
@@ -2688,14 +2663,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000009e",
-    "id": "66db0000000000000000009e",
-    "siNo": 158,
+    "_id": "66db0000000000000000009b",
+    "id": "66db0000000000000000009b",
+    "siNo": 155,
     "name": "Kit Kat",
     "tamilName": "கிட் கேட்",
     "actualPrice": 160,
@@ -2705,14 +2680,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db0000000000000000009f",
-    "id": "66db0000000000000000009f",
-    "siNo": 159,
+    "_id": "66db0000000000000000009c",
+    "id": "66db0000000000000000009c",
+    "siNo": 156,
     "name": "Asrafi Big(5 Pcs)",
     "tamilName": "அசரபி பெரியது (5 பீஸ்)",
     "actualPrice": 200,
@@ -2722,14 +2697,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a0",
-    "id": "66db000000000000000000a0",
-    "siNo": 160,
+    "_id": "66db0000000000000000009d",
+    "id": "66db0000000000000000009d",
+    "siNo": 157,
     "name": "Super Dulex",
     "tamilName": "சூப்பர் டீலக்ஸ்",
     "actualPrice": 400,
@@ -2739,14 +2714,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a1",
-    "id": "66db000000000000000000a1",
-    "siNo": 161,
+    "_id": "66db0000000000000000009e",
+    "id": "66db0000000000000000009e",
+    "siNo": 158,
     "name": "Pokemon-Queen10in1(laptop)",
     "tamilName": "யோக்கிமேன்-குயின்10ன்1(லேப்டப்)",
     "actualPrice": 750,
@@ -2756,14 +2731,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a2",
-    "id": "66db000000000000000000a2",
-    "siNo": 162,
+    "_id": "66db0000000000000000009f",
+    "id": "66db0000000000000000009f",
+    "siNo": 159,
     "name": "Roll Caps",
     "tamilName": "ரோல்கேப்",
     "actualPrice": 450,
@@ -2773,14 +2748,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a3",
-    "id": "66db000000000000000000a3",
-    "siNo": 163,
+    "_id": "66db000000000000000000a0",
+    "id": "66db000000000000000000a0",
+    "siNo": 160,
     "name": "Black Serpnet (1 Tozen)",
     "tamilName": "பிளாக் செர்ப்பநட் (1 டோசன்)",
     "actualPrice": 250,
@@ -2790,14 +2765,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "CHILDRENS SPECIAL",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a4",
-    "id": "66db000000000000000000a4",
-    "siNo": 164,
+    "_id": "66db000000000000000000a1",
+    "id": "66db000000000000000000a1",
+    "siNo": 161,
     "name": "20 Items",
     "tamilName": "20 அயிட்டம்க",
     "actualPrice": 1250,
@@ -2807,14 +2782,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GIFT BOXES",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a5",
-    "id": "66db000000000000000000a5",
-    "siNo": 165,
+    "_id": "66db000000000000000000a2",
+    "id": "66db000000000000000000a2",
+    "siNo": 162,
     "name": "30 Items",
     "tamilName": "30 அயிட்டம்க",
     "actualPrice": 1750,
@@ -2824,14 +2799,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GIFT BOXES",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a6",
-    "id": "66db000000000000000000a6",
-    "siNo": 166,
+    "_id": "66db000000000000000000a3",
+    "id": "66db000000000000000000a3",
+    "siNo": 163,
     "name": "40 Items",
     "tamilName": "40 அயிட்டம்க",
     "actualPrice": 2750,
@@ -2841,14 +2816,14 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GIFT BOXES",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   },
   {
-    "_id": "66db000000000000000000a7",
-    "id": "66db000000000000000000a7",
-    "siNo": 167,
+    "_id": "66db000000000000000000a4",
+    "id": "66db000000000000000000a4",
+    "siNo": 164,
     "name": "50 Items",
     "tamilName": "50 அயிட்டம்க",
     "actualPrice": 3750,
@@ -2858,8 +2833,8 @@ export const PRODUCTS_DATA_2026: ProductItem[] = [
     "productType": "GIFT BOXES",
     "imageUrl": null,
     "hasImage": false,
-    "createdAt": "2026-09-08T00:00:00.000Z",
-    "updatedAt": "2026-09-08T00:00:00.000Z",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-11T00:00:00.000Z",
     "__v": 0
   }
 ];
