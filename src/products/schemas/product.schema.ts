@@ -40,17 +40,17 @@ export class Product {
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
 
-ProductSchema.virtual('discountedPrice').get(function() {
-  return this.actualPrice - (this.actualPrice * this.discount / 100);
+ProductSchema.virtual('discountedPrice').get(function () {
+  return this.actualPrice - (this.actualPrice * this.discount) / 100;
 });
 
 // Add virtual for image URL
-ProductSchema.virtual('imageUrl').get(function() {
+ProductSchema.virtual('imageUrl').get(function () {
   return this.imageData ? `/products/${this._id}/image` : null;
 });
 
 // Add virtual for hasImage
-ProductSchema.virtual('hasImage').get(function() {
+ProductSchema.virtual('hasImage').get(function () {
   return !!this.imageData;
 });
 
@@ -60,5 +60,5 @@ ProductSchema.set('toJSON', {
   transform: function (doc, ret: any) {
     delete ret.imageData; // No TS error now
     return ret;
-  }
+  },
 });

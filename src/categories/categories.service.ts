@@ -1,4 +1,8 @@
-import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  BadRequestException,
+} from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Category, CategoryDocument } from './schemas/category.schema';
@@ -61,7 +65,9 @@ export class CategoriesService {
     return category;
   }
 
-  async create(createCategoryDto: CreateCategoryDto): Promise<CategoryDocument> {
+  async create(
+    createCategoryDto: CreateCategoryDto,
+  ): Promise<CategoryDocument> {
     const trimmedName = createCategoryDto.name.trim();
 
     // Check case-insensitive duplicate
@@ -74,8 +80,16 @@ export class CategoriesService {
 
     let sequence = createCategoryDto.sequence;
     if (sequence === undefined || sequence === null) {
-      const highest = await this.categoryModel.findOne().sort({ sequence: -1 }).exec();
+      const highest = await this.categoryModel
+        .findOne()
+        .sort({ sequence: -1 })
+        .exec();
       sequence = highest && highest.sequence ? highest.sequence + 1 : 1;
+    } else {
+      // Shift any existing categories at or above this sequence by +1
+      await this.categoryModel
+        .updateMany({ sequence: { $gte: sequence } }, { $inc: { sequence: 1 } })
+        .exec();
     }
 
     const created = new this.categoryModel({
@@ -86,7 +100,10 @@ export class CategoriesService {
     return created.save();
   }
 
-  async update(id: string, updateCategoryDto: UpdateCategoryDto): Promise<CategoryDocument> {
+  async update(
+    id: string,
+    updateCategoryDto: UpdateCategoryDto,
+  ): Promise<CategoryDocument> {
     const category = await this.categoryModel.findById(id).exec();
     if (!category) {
       throw new NotFoundException(`Category with ID ${id} not found`);
@@ -104,14 +121,46 @@ export class CategoriesService {
           })
           .exec();
         if (existing) {
-          throw new BadRequestException(`Category "${trimmedName}" already exists`);
+          throw new BadRequestException(
+            `Category "${trimmedName}" already exists`,
+          );
         }
       }
       category.name = trimmedName;
     }
 
     if (updateCategoryDto.sequence !== undefined) {
-      category.sequence = updateCategoryDto.sequence;
+      const oldSeq = category.sequence;
+      const newSeq = updateCategoryDto.sequence;
+
+      if (newSeq !== oldSeq) {
+        if (newSeq < oldSeq) {
+          // If changing e.g. 5 to 3:
+          // Categories with sequence in [newSeq, oldSeq - 1] (i.e. 3 and 4) shift UP by +1 (3 becomes 4, 4 becomes 5)
+          await this.categoryModel
+            .updateMany(
+              {
+                _id: { $ne: id },
+                sequence: { $gte: newSeq, $lt: oldSeq },
+              },
+              { $inc: { sequence: 1 } },
+            )
+            .exec();
+        } else {
+          // If changing e.g. 3 to 5:
+          // Categories with sequence in [oldSeq + 1, newSeq] (i.e. 4 and 5) shift DOWN by -1 (4 becomes 3, 5 becomes 4)
+          await this.categoryModel
+            .updateMany(
+              {
+                _id: { $ne: id },
+                sequence: { $gt: oldSeq, $lte: newSeq },
+              },
+              { $inc: { sequence: -1 } },
+            )
+            .exec();
+        }
+        category.sequence = newSeq;
+      }
     }
 
     const updated = await category.save();
@@ -119,10 +168,12 @@ export class CategoriesService {
     // If category name changed, cascade update to all products that had the old category name
     if (updateCategoryDto.name && updateCategoryDto.name.trim() !== oldName) {
       const newName = updateCategoryDto.name.trim();
-      await this.productModel.updateMany(
-        { productType: oldName },
-        { $set: { productType: newName } },
-      ).exec();
+      await this.productModel
+        .updateMany(
+          { productType: oldName },
+          { $set: { productType: newName } },
+        )
+        .exec();
     }
 
     return updated;
@@ -134,7 +185,14 @@ export class CategoriesService {
       throw new NotFoundException(`Category with ID ${id} not found`);
     }
 
+    const deletedSeq = category.sequence;
     await this.categoryModel.findByIdAndDelete(id).exec();
+
+    // Shift down remaining categories above deleted sequence by -1
+    await this.categoryModel
+      .updateMany({ sequence: { $gt: deletedSeq } }, { $inc: { sequence: -1 } })
+      .exec();
+
     return { message: 'Category deleted successfully', id };
   }
 }

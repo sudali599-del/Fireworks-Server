@@ -9,6 +9,8 @@ export class UpdateCategoryDto {
   @IsOptional()
   @IsNumber()
   @Min(0)
-  @Transform(({ value }) => (value !== undefined && value !== null ? parseInt(value, 10) : undefined))
+  @Transform(({ value }) =>
+    value !== undefined && value !== null ? parseInt(value, 10) : undefined,
+  )
   sequence?: number;
 }

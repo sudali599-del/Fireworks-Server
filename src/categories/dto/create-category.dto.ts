@@ -1,4 +1,10 @@
-import { IsString, IsNotEmpty, IsNumber, IsOptional, Min } from 'class-validator';
+import {
+  IsString,
+  IsNotEmpty,
+  IsNumber,
+  IsOptional,
+  Min,
+} from 'class-validator';
 import { Transform } from 'class-transformer';
 
 export class CreateCategoryDto {
@@ -9,6 +15,8 @@ export class CreateCategoryDto {
   @IsOptional()
   @IsNumber()
   @Min(0)
-  @Transform(({ value }) => (value !== undefined && value !== null ? parseInt(value, 10) : undefined))
+  @Transform(({ value }) =>
+    value !== undefined && value !== null ? parseInt(value, 10) : undefined,
+  )
   sequence?: number;
 }

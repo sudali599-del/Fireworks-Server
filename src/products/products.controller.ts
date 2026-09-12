@@ -32,16 +32,19 @@ export class ProductsController {
     try {
       return await this.productsService.create(createProductDto, file);
     } catch (error: unknown) {
-  if (error instanceof Error) {
-    throw new BadRequestException(error.message);
-  } else {
-    throw new BadRequestException('Unknown error occurred');
-  }
-}
+      if (error instanceof Error) {
+        throw new BadRequestException(error.message);
+      } else {
+        throw new BadRequestException('Unknown error occurred');
+      }
+    }
   }
 
   @Get()
-  async findAll(@Query('type') type?: string, @Query('search') search?: string) {
+  async findAll(
+    @Query('type') type?: string,
+    @Query('search') search?: string,
+  ) {
     if (search) {
       return await this.productsService.searchProducts(search);
     }
@@ -66,12 +69,12 @@ export class ProductsController {
     try {
       return await this.productsService.update(id, updateProductDto, file);
     } catch (error: unknown) {
-  if (error instanceof Error) {
-    throw new BadRequestException(error.message);
-  } else {
-    throw new BadRequestException('Unknown error occurred');
-  }
-}
+      if (error instanceof Error) {
+        throw new BadRequestException(error.message);
+      } else {
+        throw new BadRequestException('Unknown error occurred');
+      }
+    }
   }
 
   @Delete(':id')
@@ -83,7 +86,7 @@ export class ProductsController {
   async getImage(@Param('id') id: string, @Res() res: Response) {
     try {
       const product = await this.productsService.findOneWithImage(id);
-      
+
       if (!product.imageData) {
         throw new NotFoundException('Image not found for this product');
       }

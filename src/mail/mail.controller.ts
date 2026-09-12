@@ -1,11 +1,11 @@
-import { 
-  Controller, 
-  Post, 
-  UploadedFile, 
-  Body, 
-  UseInterceptors, 
-  HttpException, 
-  HttpStatus 
+import {
+  Controller,
+  Post,
+  UploadedFile,
+  Body,
+  UseInterceptors,
+  HttpException,
+  HttpStatus,
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { MailService } from './mail.service';
@@ -23,7 +23,7 @@ export class MailController {
     if (!file) {
       throw new HttpException('No file uploaded', HttpStatus.BAD_REQUEST);
     }
-    
+
     if (!email) {
       throw new HttpException('Email is required', HttpStatus.BAD_REQUEST);
     }
@@ -33,7 +33,10 @@ export class MailController {
       return { message: 'Email sent successfully' };
     } catch (err) {
       console.error('Mail sending error:', err);
-      throw new HttpException('Failed to send email', HttpStatus.INTERNAL_SERVER_ERROR);
+      throw new HttpException(
+        'Failed to send email',
+        HttpStatus.INTERNAL_SERVER_ERROR,
+      );
     }
   }
 
@@ -51,37 +54,40 @@ export class MailController {
 
     try {
       await this.mailService.sendOtp(email);
-      return { 
+      return {
         message: 'OTP sent successfully',
-        email: email 
+        email: email,
       };
     } catch (err) {
       console.error('OTP sending error:', err);
-      throw new HttpException('Failed to send OTP', HttpStatus.INTERNAL_SERVER_ERROR);
+      throw new HttpException(
+        'Failed to send OTP',
+        HttpStatus.INTERNAL_SERVER_ERROR,
+      );
     }
   }
 
   @Post('verify-otp')
-  async verifyOtp(
-    @Body('email') email: string,
-    @Body('otp') otp: string,
-  ) {
+  async verifyOtp(@Body('email') email: string, @Body('otp') otp: string) {
     if (!email || !otp) {
-      throw new HttpException('Email and OTP are required', HttpStatus.BAD_REQUEST);
+      throw new HttpException(
+        'Email and OTP are required',
+        HttpStatus.BAD_REQUEST,
+      );
     }
 
     try {
       const isValid = await this.mailService.verifyOtp(email, otp);
-      
+
       if (isValid) {
-        return { 
+        return {
           message: 'OTP verified successfully',
-          verified: true 
+          verified: true,
         };
       } else {
         throw new HttpException(
-          'Invalid or expired OTP', 
-          HttpStatus.UNAUTHORIZED
+          'Invalid or expired OTP',
+          HttpStatus.UNAUTHORIZED,
         );
       }
     } catch (err) {
@@ -90,8 +96,8 @@ export class MailController {
       }
       console.error('OTP verification error:', err);
       throw new HttpException(
-        'Failed to verify OTP', 
-        HttpStatus.INTERNAL_SERVER_ERROR
+        'Failed to verify OTP',
+        HttpStatus.INTERNAL_SERVER_ERROR,
       );
     }
   }

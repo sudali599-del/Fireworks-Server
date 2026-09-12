@@ -1,4 +1,8 @@
-import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  BadRequestException,
+} from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Product, ProductDocument } from './schemas/product.schema';
@@ -12,7 +16,10 @@ export class ProductsService {
     @InjectModel(Product.name) private productModel: Model<ProductDocument>,
   ) {}
 
-  async create(createProductDto: CreateProductDto, file?: Express.Multer.File): Promise<Product> {
+  async create(
+    createProductDto: CreateProductDto,
+    file?: Express.Multer.File,
+  ): Promise<Product> {
     const productData: any = {
       ...createProductDto,
     };
@@ -20,9 +27,11 @@ export class ProductsService {
     if (file) {
       // Validate file size (additional check)
       if (file.size > 5 * 1024 * 1024) {
-        throw new BadRequestException('File size too large. Maximum 5MB allowed.');
+        throw new BadRequestException(
+          'File size too large. Maximum 5MB allowed.',
+        );
       }
-      
+
       productData.imageData = file.buffer;
       productData.imageType = file.mimetype;
       productData.imageName = file.originalname;
@@ -34,7 +43,10 @@ export class ProductsService {
 
   async findAll(): Promise<any[]> {
     try {
-      const dbProducts = await this.productModel.find().select('-imageData').exec();
+      const dbProducts = await this.productModel
+        .find()
+        .select('-imageData')
+        .exec();
       if (dbProducts && dbProducts.length > 0) {
         const staticIds = new Set(PRODUCTS_DATA_2026.map((p) => p._id));
         const customDbProducts = dbProducts.filter(
@@ -50,13 +62,18 @@ export class ProductsService {
   }
 
   async findOne(id: string): Promise<any> {
-    const item = PRODUCTS_DATA_2026.find(p => p._id === id || p.id === id || String(p.siNo) === id);
+    const item = PRODUCTS_DATA_2026.find(
+      (p) => p._id === id || p.id === id || String(p.siNo) === id,
+    );
     if (item) {
       return item;
     }
 
     try {
-      const product = await this.productModel.findById(id).select('-imageData').exec();
+      const product = await this.productModel
+        .findById(id)
+        .select('-imageData')
+        .exec();
       if (product) {
         return product;
       }
@@ -73,7 +90,11 @@ export class ProductsService {
     return product;
   }
 
-  async update(id: string, updateProductDto: UpdateProductDto, file?: Express.Multer.File): Promise<Product> {
+  async update(
+    id: string,
+    updateProductDto: UpdateProductDto,
+    file?: Express.Multer.File,
+  ): Promise<Product> {
     const existingProduct = await this.findOneWithImage(id);
 
     const updateData: any = { ...updateProductDto };
@@ -81,9 +102,11 @@ export class ProductsService {
     if (file) {
       // Validate file size
       if (file.size > 5 * 1024 * 1024) {
-        throw new BadRequestException('File size too large. Maximum 5MB allowed.');
+        throw new BadRequestException(
+          'File size too large. Maximum 5MB allowed.',
+        );
       }
-      
+
       updateData.imageData = file.buffer;
       updateData.imageType = file.mimetype;
       updateData.imageName = file.originalname;
@@ -104,7 +127,10 @@ export class ProductsService {
   async remove(id: string): Promise<Product> {
     const product = await this.findOne(id);
 
-    const deletedProduct = await this.productModel.findByIdAndDelete(id).select('-imageData').exec();
+    const deletedProduct = await this.productModel
+      .findByIdAndDelete(id)
+      .select('-imageData')
+      .exec();
 
     if (!deletedProduct) {
       throw new NotFoundException(`Product with ID ${id} not found`);
@@ -115,7 +141,7 @@ export class ProductsService {
 
   async findByType(productType: string): Promise<any[]> {
     const matched = PRODUCTS_DATA_2026.filter(
-      p => p.productType.toLowerCase() === productType.toLowerCase()
+      (p) => p.productType.toLowerCase() === productType.toLowerCase(),
     );
     if (matched.length > 0) {
       return matched;
@@ -126,11 +152,11 @@ export class ProductsService {
   async searchProducts(query: string): Promise<any[]> {
     const q = query.toLowerCase();
     const matched = PRODUCTS_DATA_2026.filter(
-      p =>
+      (p) =>
         p.name.toLowerCase().includes(q) ||
         p.productDescription.toLowerCase().includes(q) ||
         p.productType.toLowerCase().includes(q) ||
-        (p.tamilName && p.tamilName.includes(query))
+        (p.tamilName && p.tamilName.includes(query)),
     );
     if (matched.length > 0) {
       return matched;

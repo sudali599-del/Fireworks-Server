@@ -58,7 +58,7 @@ export class MailService {
         {
           filename: file.originalname || 'invoice.pdf',
           content: file.buffer,
-          contentType: 'application/pdf'
+          contentType: 'application/pdf',
         },
       ],
     };
@@ -69,10 +69,10 @@ export class MailService {
   async sendOtp(email: string): Promise<string> {
     // Generate 6-digit OTP
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
-    
+
     // Set expiration time (5 minutes from now)
     const expiresAt = new Date(Date.now() + 5 * 60 * 1000);
-    
+
     // Store OTP in memory (consider using Redis for production)
     this.otpStore.set(email, { otp, expiresAt });
 
@@ -123,13 +123,13 @@ export class MailService {
 
   async verifyOtp(email: string, providedOtp: string): Promise<boolean> {
     const storedData = this.otpStore.get(email);
-    
+
     if (!storedData) {
       return false; // No OTP found for this email
     }
 
     const { otp, expiresAt } = storedData;
-    
+
     // Check if OTP has expired
     if (new Date() > expiresAt) {
       this.otpStore.delete(email); // Clean up expired OTP
