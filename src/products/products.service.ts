@@ -33,6 +33,18 @@ export class ProductsService {
   }
 
   async findAll(): Promise<any[]> {
+    try {
+      const dbProducts = await this.productModel.find().select('-imageData').exec();
+      if (dbProducts && dbProducts.length > 0) {
+        const staticIds = new Set(PRODUCTS_DATA_2026.map((p) => p._id));
+        const customDbProducts = dbProducts.filter(
+          (p: any) => !staticIds.has(p._id?.toString()),
+        );
+        return [...PRODUCTS_DATA_2026, ...customDbProducts];
+      }
+    } catch (e) {
+      // Fallback to static catalog
+    }
     // Return authentic 2026 catalog directly for 100% reliability and exact match with PDF
     return PRODUCTS_DATA_2026;
   }
